@@ -1,0 +1,119 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=none,
+]{biblatex}
+\renewbibmacro{in:}{}
+
+\title{Numerical  values of surface and line tensions from the three sets of independent simulations}
+
+
+
+
+\begin{document}
+\maketitle
+
+\begin{table}
+    \centering
+    \caption{Numerical  values of surface and line tensions from the three sets of independent simulations; 
+    lipid numbers $N_{ol}$ and $N_{il}$ in the outer and inner leaflets;  interfacial tension $\Sigma_\ab$ of liquid-liquid interface between $\alpha$ droplet and aqueous bulk phase $\beta$; membrane segment tensions $\Sigma_\ag$ and $\Sigma_\bg$ of 
+    the two membrane segments $\ag$ and $\bg$;  as well as contact line tension 
+    $\lambda$. The three surface tensions are given in units of $k_B T/d^2$, the line tension in units of $k_B T/d$.}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+     Size  & $N_{ol}$ & $N_{il}$   & $\Sigma_\alpha\beta$ & $\Sigma_\alpha\gamma$ &$\Sigma_\beta\gamma$ & $\lambda$ \\
+    \hline
+     14\,nm & 5400 & 4700        & 2.781        & 0.611        & 1.375       & 14.62 \\
+              &      &             & 2.823        & 0.678        & 1.243       & 21.02 \\
+              &      &             & 2.851        & 0.697        & 1.339       & 22.7  \\
+     \hline  
+              &      &             & $2.82 \pm 0.04$ & $0.66 \pm 0.05$ & $1.32 \pm 0.07$ & $19.44 \pm 4.20$ \\
+     \hline
+              & 5500 & 4600        & 2.821        & 0.753        & 1.148       & 7.16 \\
+              &      &             & 2.844        & 0.887        & 1.128       & 7.11 \\
+              &      &             & 2.852        & 0.948        & 1.066       & 6.84 \\
+     \hline
+              &      &             & $2.84 \pm 0.02$ & $0.86 \pm 0.10$ & $1.11 \pm 0.04$ & $7.04  \pm 0.31$ \\
+     \hline
+              & 5700 & 4400        & 2.851        & 1.082        & 0.991       & -6.511 \\
+              &      &             & 2.845        & 1.102        & 0.806       & -10.72 \\
+              &      &             & 2.865        & 1.267        & 0.774       & -12.87 \\
+     \hline
+              &      &             & $2.85 \pm 0.01$ & $1.15 \pm 0.11$ & $0.86 \pm 0.12$ & $-10.03\pm 2.09$ \\
+     \hline
+              &5963 & 4137         & 2.813        & 1.781        & 0.505       & -25.51  \\
+              &     &              & 2.878        & 1.692        & 0.599       & -17.3   \\
+              &     &              & 2.868        & 1.773        & 0.618       & -26.9   \\
+     \hline
+              &     &              & $2.85 \pm 0.04$ & $1.75 \pm 0.05$ & $0.57 \pm 0.06$ & $-23.25\pm 5.1$ \\
+      \hline
+
+      18.3\,nm  &5400 & 4700         & 2.931        & 0.931        & 1.445      & 11.4    \\
+              &     &              & 2.951        & 0.998        & 1.476      & 20.75   \\
+              &     &              & 2.944        & 0.983        & 1.481      & 20.1    \\
+      \hline
+              &5400 & 4700 & $2.94 \pm 0.01$ & $0.97 \pm 0.04$ & $1.47 \pm 0.01$ & $17.49 \pm 5.2$ \\
+       \hline      
+              &5500 & 4600         & 2.915        & 1.081        & 1.227      & 2.63    \\
+              &     &              & 2.981        & 1.23         & 1.393      & 6.805   \\
+              &     &              & 2.976        & 1.195        & 1.381      & 9.051   \\
+       \hline
+              &     &  & $2.96 \pm 0.04$ & $1.17 \pm 0.08$ & $1.33 \pm 0.09$ & $6.17  \pm 3.8$ \\
+        \hline
+              &5700 & 4400         & 2.902        & 1.44         & 0.971      & -6.8777 \\
+              &     &              & 2.949        & 1.481        & 1.109      & -14.32  \\
+              &     &              & 2.941        & 1.479        & 1.095      & -12.88  \\
+        \hline
+              &     &  & $2.93 \pm 0.03$ & $1.47 \pm 0.02$ & $1.06 \pm 0.08$ & $-11.35\pm4.11$ \\
+        \hline
+              &5963 & 4137         & 2.921        & 1.941        & 0.698      & -23.089  \\
+              &     &              & 2.987        & 1.875        & 0.771      & -29.321  \\
+              &     &              & 2.991        & 1.964        & 0.81       & -26.435  \\
+        \hline
+              &     &              & $2.96 \pm 0.04$ & $1.92 \pm 0.05$ & $0.76 \pm 0.06$ & $-26.28\pm 5.1$ \\
+      \hline
+     24.5\,nm &5400 & 4700         & 2.77         & 1.186       & 1.354       & 10.6 \\
+              &     &              & 3.01         & 1.11        & 1.481       & 14.8 \\
+              &     &              & 2.99         & 1.137       & 1.342       & 20.1 \\
+      \hline
+              &5400 & 4700 & $2.9  \pm 0.1$  & $1.14 \pm 0.03$ & $1.39 \pm 0.08$ & $15.2 \pm 4.1$ \\
+      \hline
+              &5500 & 4600         & 2.8909       & 1.29        & 1.202      & 1.02 \\
+              &     &              & 2.999        & 1.361       & 1.365      & 5.01 \\
+              &     &              & 2.969        & 1.356       & 1.381      & 3.75 \\
+     \hline
+              &     &      & $2.95 \pm 0.06$ & $1.33 \pm 0.03$ & $1.32 \pm 0.10$ & $3.26 \pm 2.4$ \\
+     \hline
+              &5700 & 4400         & 2.977        & 0.84        & 1.011      & -8.23 \\
+              &     &              & 2.913        & 2.32        & 1.12       & -16.09 \\
+              &     &              & 2.979        & 1.976       & 1.09       & -16.5 \\
+     \hline
+              &     &     & $2.96 \pm 0.04$ & $1.72 \pm 0.08$ & $1.08 \pm 0.06$ & $-13.61\pm4.9$ \\
+     \hline
+              &5963 & 4137         & 2.907       &  2.11             & 0.843       & 20.34 \\
+              &     &              & 2.943       &  2.01             & 0.932       & 28.8 \\
+              &     &              & 2.939       & 1.958             & 0.864       & 29.59 \\
+     \hline
+              &5963 & 4137 & $2.93 \pm 0.01$ & $2.02 \pm 0.08$ & $0.88 \pm 0.05$ & $-26.25\pm5.8$ \\
+       \hline
+    \end{tabular}
+    \label{Tab-1}
+\end{table}
+
+
+\end{document}
