@@ -1,0 +1,73 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage[
+backend=biber,
+style=numeric,
+sorting=none,
+]{biblatex}
+\renewbibmacro{in:}{}
+
+\title{Numerical  values of surface and line tensions from the three sets of independent simulations}
+
+
+
+
+\begin{document}
+\maketitle
+
+\newpage
+
+\begin{table}
+    \centering
+    \caption{Numerical  values of inner and outer leaflet tensions of the vesicles with different number of lipids in the two leaflets, from the three sets of independent simulations; 
+    lipid numbers $N_{ol}$ and $N_{il}$ in the outer and inner leaflets; $\Sigma_{il}$ and $\Sigma_{ol}$ are the inner and outer leaflet tensions respectively, while $\Sigma$ is the bilayer tension. The tensions are given in units of $k_B T/d^2$.}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+     $N_{ol}$ & $N_{il}$   & $\Sigma_{il}$ & $\Sigma_{ol}$ & $\Sigma$ \\
+     \hline
+      5400    &  4700      &  -1.581       &   1.661       &    0.08     \\
+              &            &  -1.681       &   1.689       &    0.008    \\
+              &            &  -1.678       &   1.603       &   -0.075    \\
+  \hline
+              &       &  $-1.64 \pm 0.06$ &  $1.651 \pm 0.04$  &    $0.004 \pm 0.07$ \\
+  \hline
+              
+      5500    &  4600      &  -1.311      &   1.34       &     0.029     \\
+              &            &  -1.387      &   1.375      &    -0.012     \\
+              &            &  -1.391      &   1.369      &    -0.022     \\
+    \hline
+              &            & $-1.36 \pm 0.05$  & $1.36 \pm 0.02$ & $-0.001 \pm 0.02$ \\
+    \hline
+      5700    &  4400      & -0.772       &    0.833     &     0.061      \\
+              &            & -0.839       &    0.879     &     0.04       \\
+              &            & -0.844       &    0.894     &     0.05       \\
+    \hline
+              &            & $-0.82 \pm 0.04$  &  $0.87 \pm 0.03$  &  $0.05 \pm 0.01$ \\
+    \hline
+
+    5963      &  4137      & -0.014       &   0.022      &    0.008      \\
+              &            & -0.031       &   0.040      &    0.009      \\
+              &            & -0.031       &   0.039      &    0.008       \\
+    \hline
+            &            & $-0.026 \pm 0.01$   & $0.034 \pm 0.08$  &  $0.008 \pm 0.006$ \\
+    \hline
+    
+     \end{tabular}
+\end{table}
+
+
+     
+\end{document}
